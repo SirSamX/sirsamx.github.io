@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #7D31CE;
+    color: white;
+}
+
+.gaminglegenden-logo{
+    width: 100%;
+}
+
+.überschrift{
+    color: #c90505;
+    padding: 20px;
+    padding-left: 120px;
+    font-size: 35px !important;
+    
+}
+
+a:hover,button:hover{
+    color:rgb(42, 20, 172);
+    outline: invert;
+}
+
+a,button{
+    text-decoration: none;
+    color: #CE3134;
+    margin: 10px;
+    margin-right: 30px;
+    padding: 7px;
+    outline: #31CECB;
+    outline-width: 5px;
+    outline-style: ridge;
+    font-family: sans-serif;
+    font-size: 19px;
+    box-shadow: 8.5px 10px 5px teal;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,#7D31CE,#82CE31 );
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.überschrift:hover{
+    transform: scale(1.02);
+    color:#d81515;
+}
+
+#projekte{
+    background-color: #82CE31;
+    border: 12px solid #5c9123;
+    border-radius: 30px;
+    padding:15px;
+    padding-bottom: 300px;
+    margin-bottom: 30px;
+}
+
+#personen{
+    background-color: #CE3134;
+    border: 12px solid #7e191a;
+    border-radius: 30px;
+    padding:15px;
+    padding-bottom: 300px;
+    margin-bottom: 30px;
+}
+
+#kontakt{
+    background-color: #31CECB;
+    border: 12px solid #16706f;
+    border-radius: 30px;
+    padding:15px;
+    padding-bottom: 300px;
+    margin-bottom: 50px;
+}
