@@ -12,12 +12,17 @@
 
     <body onload="load()" id="top">
      <nav>
+      
        <ul>
             <li><a class="überschrift" href="./index.html">Home</a></li>
             <li><a class="button" href="#">Discord</a></li>
             <li><a class="expandable_li" href="./index.html#projekte">Projekte</a>
               <input type="checkbox" id="projects_checkbox">
-              <label></label>
+              <label for="projects_checkbox">Projekte</label>
+              <ul class="dropdown">
+                <li><a href="#">Projekt 1</a></li>
+                <li><a href="#">Projekt 2</a></li>
+              </ul>
             </li>
             <li><a class="button" href="./index.html#personen">Personen</a></li>
             <li><a class="button" href="./index.html#kontakt">Kontakt</a></li>
