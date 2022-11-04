@@ -8,26 +8,27 @@
       <link rel="stylesheet" href="./main.css">
       <script src="./main.js"></script>
       <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body onload="load()" id="top">
-     <nav>
-       <a class="logo" href="#">Gaming Legenden</a>
-       <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#">Discord</a></li>
-            <li class="expandable_li">
-              <input type="checkbox" id="projects_checkbox">
-              <label for="projects_checkbox">Projekte</label>
-              <ul class="dropdown">
-                <li><a href="#">Projekt 1</a></li>
-                <li><a href="#">Projekt 2</a></li>
-              </ul>
-            </li>
-            <li><a href="./index.html#personen">Personen</a></li>
-            <li><a href="./index.html#kontakt">Kontakt</a></li>
-          </ul>
-     </nav>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsive()">&#9776;</a>
+      </div>
  
      <div class="boxen">
        <div id="projekte">
