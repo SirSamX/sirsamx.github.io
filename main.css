@@ -15,15 +15,6 @@ html{
     padding-top: 30px;
 }
 
-.überschrift{
-    color: #c90505;
-    padding: 20px;
-    padding-left: 120px;
-    font-size: 35px;
-    font-family: fantasy;
-    
-}
-
 .button:hover{
     color:rgb(42, 20, 172);
     outline: invert;
@@ -49,11 +40,6 @@ html{
     background: linear-gradient(to right,#7D31CE,#82CE31);
     padding-top: 50px;
     padding-bottom: 60px;
-}
-
-.überschrift:hover{
-    transform: scale(1.02);
-    color:#d81515;
 }
 
 .boxen{
