@@ -34,14 +34,6 @@ html{
     box-shadow: 8.5px 10px 5px teal;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    background: linear-gradient(to right,#7D31CE,#82CE31);
-    padding-top: 50px;
-    padding-bottom: 60px;
-}
-
 .boxen{
     font-family: cursive;
     font-size: 15px;
