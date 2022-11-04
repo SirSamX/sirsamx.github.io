@@ -5,40 +5,49 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Gaming Legenden-Übersicht</title>
-      <link rel="stylesheet" href="./main.css">
+      <link rel="stylesheet" href="./maian.css">
       <script src="./main.js"></script>
+      <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     </head>
 
-    <body onload="load()">
-      <div class="navbar" id="title">
-        <h1 class="überschrift">Gaming Legenden - Übersicht</h1>
-        <div>
-            <a href="404.html">Discord</a>
-            <a href="#projekte">Projekte</a>
-            <a href="#personen">Personen</a>
-            <a href="#kontakt">Kontakt</a>
-         </div>
-     </div>
-
-     <div id="projekte">
-       <h1>Projekte</h1>
-       <p>Survival Craft</p>
-      </div>
-      
-      <div id="personen">
-        <h1>Personen</h1>
-        <p>niceleumas</p>
-      </div>
-      
-      <div id="kontakt">
+    <body onload="load()" id="top">
+     <nav>
+       <ul>
+            <li><a class="überschrift" href="./index.html">Home</a></li>
+            <li><a class="button" href="./404.html">Discord</a></li>
+            <li><a class="button" href="./index.html#projekte">Projekte</a></li>
+            <li><a class="button" href="./index.html#personen">Personen</a></li>
+            <li><a class="button" href="./index.html#kontakt">Kontakt</a></li>
+          </ul>
+     </nav>
+ 
+     <div class="boxen">
+       <div id="projekte">
+        <h1>Projekte</h1>
+        <p><a href="./projekte.html">Gaming Legenden Community SMP</a></p>
+       </div>
+       
+       <div id="personen">
+       <h1>Personen</h1>
+        <p>niceleumas (Ersteller)</p>
+        <p>hbjju<a class="twitch-link" href="https://www.twitch.tv/hbjju" target="_blank" rel="noreferrer noopener">Twitch</a><iconify-icon icon="logos:twitch"></iconify-icon></p>
+        <p>EnderMo23</p>
+        <p>Blueberry</p>
+        <p>Flamme3221</p>
+        <p>RedstoneKaiser</p>
+        <p>Test</p>
+       </div>
+    
+       <div id="kontakt">
         <h1>Kontakt</h1>
         <p>Discord:  niceleumas#8517</p>
-      </div>
-      
-      <a href="#title">Zurück nach oben &uarr;</a>
+       </div>
+     </div>
+     <a class="button" href="#top">Zurück nach oben &uarr;</a>
 
-      <div>
-       <img class="gaminglegenden-logo" src="https://cdn.discordapp.com/attachments/924225026356547586/1022849590908690533/Unbenannt_1.png">
-      </div> 
+     <div>
+      <img class="gaminglegenden-logo" src="https://cdn.discordapp.com/attachments/924225026356547586/1022849590908690533/Unbenannt_1.png">
+     </div>
+     <p>Logo von Flamme3221</p>
     </body>
-    </html>
+</html>

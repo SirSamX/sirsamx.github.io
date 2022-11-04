@@ -1,28 +1,35 @@
 html{
     scroll-behavior: smooth;
-    background-color: #7D31CE;
+    background: linear-gradient(to right,#7D31CE,#82CE31);
     color: white;
 }
 
+@media screen and (max-width: 600px) {
+    * {
+      display: none;
+    }
+  }
+
 .gaminglegenden-logo{
     width: 100%;
-    margin-top: 50px;
+    padding-top: 30px;
 }
 
 .überschrift{
     color: #c90505;
     padding: 20px;
     padding-left: 120px;
-    font-size: 35px !important;
+    font-size: 35px;
+    font-family: fantasy;
     
 }
 
-a:hover,button:hover{
+.button:hover{
     color:rgb(42, 20, 172);
     outline: invert;
 }
 
-a,button{
+.button{
     text-decoration: none;
     color: #CE3134;
     margin: 10px;
@@ -39,7 +46,7 @@ a,button{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(to right,#7D31CE,#82CE31 );
+    background: linear-gradient(to right,#7D31CE,#82CE31);
     padding-top: 50px;
     padding-bottom: 60px;
 }
@@ -49,10 +56,15 @@ a,button{
     color:#d81515;
 }
 
+.boxen{
+    font-family: cursive;
+    font-size: 15px;
+}
+
 #projekte{
     background-color: #82CE31;
     border: 12px solid #5c9123;
-    border-radius: 30px;
+    border-radius: 28px;
     padding:15px;
     padding-bottom: 300px;
     margin-bottom: 30px;
@@ -61,17 +73,31 @@ a,button{
 #personen{
     background-color: #CE3134;
     border: 12px solid #7e191a;
-    border-radius: 30px;
     padding:15px;
-    padding-bottom: 300px;
+    border-radius: 28px;
     margin-bottom: 30px;
 }
 
 #kontakt{
     background-color: #31CECB;
     border: 12px solid #16706f;
-    border-radius: 30px;
-    padding:15px;
-    padding-bottom: 300px;
     margin-bottom: 50px;
+    padding:15px;
+    border-radius: 28px;
+    padding-bottom: 300px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.twitch-link{
+    text-decoration: none;
+    margin-left: 25%;
+    margin-right: 1%;   
+}
+
+.twitch-link:hover{
+    color: darkblue
 }
