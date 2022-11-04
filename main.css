@@ -4,6 +4,13 @@ html{
     color: white;
 }
 
+:root{
+    --background-color: #314453;
+    --darker-background-color: #243848;
+    --accent-color:  #41DCE1;
+    --text-color: #FFFFFF;
+}
+
 @media screen and (max-width: 600px) {
     * {
       display: none;
@@ -78,4 +85,12 @@ p{
 
 .twitch-link:hover{
     color: darkblue
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
 }
