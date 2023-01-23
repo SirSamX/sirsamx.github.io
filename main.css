@@ -29,6 +29,7 @@ html{
     font-size: 19px;
     box-shadow: 8.5px 10px 5px teal;
     background-color: var(--overlay);
+    color: var(--text);
 }
 
 .boxen{
