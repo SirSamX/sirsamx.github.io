@@ -19,7 +19,7 @@ html{
 
 .button{
     text-decoration: none;
-    color: #CE3134;
+    color: var(--text);
     margin: 10px;
     margin-right: 30px;
     padding: 7px;
@@ -29,6 +29,7 @@ html{
     font-family: sans-serif;
     font-size: 19px;
     box-shadow: 8.5px 10px 5px teal;
+    background-color: var(--overlay);
 }
 
 .boxen{
