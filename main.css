@@ -13,8 +13,7 @@ html{
 }
 
 .button:hover{
-    color: var(--primary);
-/*    outline: invert; */
+    color: var(--secoundary);
 }
 
 .button{
@@ -22,14 +21,14 @@ html{
     margin: 10px;
     margin-right: 30px;
     padding: 7px;
-    outline: var(--secoundary);
+    outline: var(--primary);
     outline-width: 5px;
     outline-style: ridge;
     font-family: sans-serif;
     font-size: 19px;
-    box-shadow: 6px 6px 10px var(--secoundary);
+    box-shadow: 6px 6px 10px var(--primary);
     background-color: var(--overlay);
-    color: var(--text);
+    color: var(--primary);
 }
 
 .boxen{
@@ -74,7 +73,7 @@ p{
 }
 
 .twitch-link:hover{
-    color: darkblue
+    color: var(--secoundary)
 }
 
 a:link { color: var(--primary); }
