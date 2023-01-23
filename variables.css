@@ -1,9 +1,9 @@
 :root {
     --background: #121212;
     --overlay: #282828;
-    --secoundary: #03DAC6;
-    --primary: #ac67ff;
-    --primary-variant: #3700B3;
-    --error: #CF6679;
+    --secoundary: #03dac5ab;
+    --primary: #ac67ffbe;
+    --primary-variant: #3600b3ab;
+    --error: #ce4760ab;
     --text: #fff;
 }
