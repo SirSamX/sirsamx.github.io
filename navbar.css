@@ -17,7 +17,7 @@
 }
 
 .active {
-  background-color: var(--primary-variant);
+  background-color: var(--primary);
   color: var(--text);
 }
 
@@ -65,8 +65,8 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: var(--primary);
+  color: var(--text);
 }
 
 .dropdown:hover .dropdown-content {
