@@ -60,8 +60,8 @@
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
+  background-color: var(--overlay);
+  color: var(--text);
 }
 
 .dropdown-content a:hover {
