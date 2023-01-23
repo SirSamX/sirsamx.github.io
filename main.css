@@ -39,7 +39,7 @@ html{
 
 #projekte{
     background-color: var(--overlay);
-    border: 12px solid var();
+    border: 12px solid var(--secoundary);
     border-radius: 28px;
     padding:15px;
     padding-bottom: 300px;
