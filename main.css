@@ -27,42 +27,40 @@ html{
     outline-style: ridge;
     font-family: sans-serif;
     font-size: 19px;
-    box-shadow: 8.5px 10px 5px teal;
+    box-shadow: 6px 6px 10px var(--secoundary);
     background-color: var(--overlay);
     color: var(--text);
 }
 
 .boxen{
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     padding-top: 20px;
 }
 
 #projekte{
     background-color: var(--overlay);
-    border: 12px solid var(--secoundary);
-    border-radius: 28px;
+    border-radius: 10px;
     padding:15px;
     padding-bottom: 300px;
-    margin-bottom: 30px;
+    margin: 10px;
+    
 }
 
 #personen{
-    background-color: #CE3134;
-    border: 12px solid #7e191a;
+    background-color: var(--overlay);
+    border-radius: 10px;
     padding:15px;
-    border-radius: 28px;
-    margin-bottom: 30px;
+    margin: 10px;
 }
 
 #kontakt{
-    background-color: #31CECB;
-    border: 12px solid #16706f;
-    margin-bottom: 50px;
+    background-color: var(--overlay);
+    border-radius: 10px;
     padding:15px;
-    border-radius: 28px;
+    margin: 10px;
+    margin-bottom: 50px;
     padding-bottom: 300px;
-    margin-bottom: 30px;
 }
 
 p{
@@ -78,3 +76,7 @@ p{
 .twitch-link:hover{
     color: darkblue
 }
+
+a:link { color: var(--primary); }
+a:hover { color: var(--secoundary); }
+a:active { color: var(--secoundary); text-decoration:none; font-weight:normal; }
