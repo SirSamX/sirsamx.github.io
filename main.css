@@ -1,6 +1,8 @@
+@import "variables.css";
+
 html{
     scroll-behavior: smooth;
-    background: linear-gradient(to right,#7D31CE,#82CE31);
+    background: var(--background);
     color: white;
     width: 100%;
 }
@@ -21,7 +23,7 @@ html{
     margin: 10px;
     margin-right: 30px;
     padding: 7px;
-    outline: #31CECB;
+    outline: var(--secoundary);
     outline-width: 5px;
     outline-style: ridge;
     font-family: sans-serif;
