@@ -59,13 +59,8 @@
   text-align: left;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: var(--overlay);
-  color: var(--text);
-}
-
-.dropdown-content a:hover {
-  background-color: var(--primary);
+.topnav a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover{
+  background-color: var(--secoundary);
   color: var(--text);
 }
 
