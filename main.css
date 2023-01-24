@@ -4,7 +4,10 @@ html{
     scroll-behavior: smooth;
     background: var(--background);
     color: var(--text);
-    width: 100%;
+}
+
+body{
+    margin: 0;
 }
 
 .gaminglegenden-logo{
@@ -42,7 +45,7 @@ html{
     border-radius: 10px;
     padding:15px;
     padding-bottom: 300px;
-    margin: 10px;
+    margin: 17px;
     
 }
 
@@ -50,14 +53,14 @@ html{
     background-color: var(--overlay);
     border-radius: 10px;
     padding:15px;
-    margin: 10px;
+    margin: 17px;
 }
 
 #kontakt{
     background-color: var(--overlay);
     border-radius: 10px;
     padding:15px;
-    margin: 10px;
+    margin: 17px;
     margin-bottom: 50px;
     padding-bottom: 300px;
 }
@@ -79,3 +82,40 @@ p{
 a:link { color: var(--primary); }
 a:hover { color: var(--secoundary); }
 a:active { color: var(--secoundary); text-decoration:none; font-weight:normal; }
+
+.container{
+    position: relative;
+    height: 15vh;
+}
+  
+.wave{
+    position: absolute;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    background: url('./pictures/wave.png') repeat-x;
+    background-size: 250rem 30rem;
+    animation: animate 15s linear infinite;
+}
+  
+@keyframes animate{
+    0% {
+      background-position-x: 0;
+      background-position-x: -250rem;
+    }
+}
+  
+.wave:nth-child(1){
+    opacity: 0.9;
+}
+  
+.wave:nth-child(2){
+    opacity: 0.5;
+    animation-delay: 0.2s;
+    animation-direction: reverse;
+}
+  
+.wave:nth-child(3){
+    opacity: 0.7;
+    animation-delay: 5s;
+}
