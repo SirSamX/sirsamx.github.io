@@ -10,11 +10,6 @@ body{
     margin: 0;
 }
 
-.gaminglegenden-logo{
-    width: 100%;
-    padding-top: 30px;
-}
-
 .button:hover{
     color: var(--secoundary);
 }
@@ -68,8 +63,8 @@ p{
 
 .twitch-link{
     text-decoration: none;
-    margin-left: 25%;
-    margin-right: 1%;   
+    margin-left: 50%;
+    margin-right: 50%;   
 }
 
 .twitch-link:hover{
