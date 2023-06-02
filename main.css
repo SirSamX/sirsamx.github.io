@@ -29,27 +29,27 @@ body{
     color: var(--primary);
 }
 
-.boxen{
+.boxes{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     padding-top: 20px;
 }
 
-#projekte{
+#projects{
     background-color: var(--overlay);
     border-radius: 10px;
     padding:15px;
     margin: 17px;
 }
 
-#personen{
+#persons{
     background-color: var(--overlay);
     border-radius: 10px;
     padding:15px;
     margin: 17px;
 }
 
-#kontakt{
+#contact{
     background-color: var(--overlay);
     border-radius: 10px;
     padding:15px;
