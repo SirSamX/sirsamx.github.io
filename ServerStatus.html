@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLSMP Server Status</title>
+    <link rel="stylesheet" href="main.css">
+    <script>
+        function initServerData(serverIp,serverPort){
+            const serverIpElement = document.getElementById('server-ip');
+            serverIpElement.innerHTML = serverIp;
+            fetch('https://mcapi.us/server/status?ip='+serverIp+'&port='+serverPort)
+            .then(response => response.json())
+            .then(data => handleServerStatus(data));
+            
+            function handleServerStatus(data){
+                if(data.status=='error'){
+                    console.log(data.error);
+                    return false;
+                }
+                const motd = document.getElementById("motd");
+                motd.innerHTML = data.motd.replaceColorCodes();
+    
+                const playerCounter = document.getElementById("player-count");
+                playerCounter.innerHTML = data.players.now + "/" + data.players.now;
+    
+                const logo = document.getElementById("server-icon");
+                logo.src = data.favicon;
+            } 
+        }
+    </script>
+
+</head>
+<body onload='initServerData("glsmp.ploudos.me","25565")'>
+    <div>
+        <img id="server-icon"/>
+        <div>
+            <h1 id="server-ip">Failed to Load</h1>
+            <span id="motd">Failed to Load</span>
+            <div><span id="player-count">Failed to Load</span> Players Online</div>
+            <button id="button" onclick='initServerData("glsmp.ploudos.me","25565")'>Refresh</button>
+        </div>
+    </div>
+</body>
+</html>
