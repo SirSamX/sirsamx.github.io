@@ -22,7 +22,7 @@
                 motd.innerHTML = data.motd;
     
                 const playerCounter = document.getElementById("player-count");
-                playerCounter.innerHTML = data.players.now + "/" + data.players.max;
+                playerCounter.innerHTML = "Players Online: " + data.players.now + "/" + data.players.max;
     
                 const logo = document.getElementById("server-icon");
                 logo.src = data.favicon;
@@ -49,9 +49,9 @@
     <div>
         <img id="server-icon"/>
         <div class="boxes; server-status">
-            <span id="server-ip" class="server-status-text">Failed to Load</span>
-            <span id="motd" class="server-status-text">Server not online!</span>
-            <span class="server-status-text"><span id="player-count" class="server-status-text">No</span> Players Online</span>
+            <h1 id="server-ip" class="server-status-text">Failed to Load</h1>
+            <h1 id="motd" class="server-status-text">Server not online!</h1>
+            <h1 class="server-status-text" id="player-count">Players Online: nope</h1>
             <button style="margin-top: 8px; padding: 3px;" id="button" class="button" onclick='initServerData("glsmp.ploudos.me","25565")'>Refresh</button>
         </div>
     </div>
