@@ -75,9 +75,10 @@ a:link { color: var(--primary); }
 a:hover { color: var(--secoundary); }
 a:active { color: var(--secoundary); text-decoration:none; font-weight:normal; }
 
-.container{
+.wave-container{
     position: relative;
     height: 15vh;
+    z-index: -1;
 }
   
 .wave{
